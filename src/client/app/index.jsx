@@ -1,8 +1,13 @@
-console.log("test");
+improt React from 'react';
+import {render} from 'react-dom';
 
-// App = React.create
+App = React.createClass({
+	render() {
+		return <p>Hello React!</p>;
+	}
+});
 
-// ReactDOM.render(
-// 	<App>,
-// 	document.getElementById('container')
-// );
+render(
+	<App/>,
+	document.getElementById('container')
+);
