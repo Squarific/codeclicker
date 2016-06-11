@@ -1,4 +1,4 @@
-improt React from 'react';
+import React from 'react';
 import {render} from 'react-dom';
 
 App = React.createClass({
