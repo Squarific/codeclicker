@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Squarific/codeclicker/issues"
   },
-  "homepage": "https://github.com/Squarific/codeclicker#readme"
+  "homepage": "https://github.com/Squarific/codeclicker#readme",
+  "dependencies": {
+    "webpack": "^1.13.1"
+  }
 }
